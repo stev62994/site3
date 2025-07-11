@@ -1,0 +1,60 @@
+<html>
+    <title>вкалдка</title>
+    <body style="font-family:sans-serif">
+        <header style="background-color:#5F9EA0">
+            <img src="" alt="Логотип">
+            <a href="#opisanie" style="color: black; font-size:20px">Об играх</a>
+            <a href="#games" style="color: black; font-size:20px">Таблица игр</a>
+        </header>
+        <main>
+            <h1 style="text-align:center; font-size:50px">Видео игры</h1>
+            <h2 style="font-size:40px">Приключенческие</h2>
+            <p id="opisanie" style="text-align:center; font-size:20px">Отправляйтесь в эпическое путешествие, где каждый шаг — это новая загадка, а каждый выбор меняет судьбу мира!</p>
+            <img src="https://cubiq.ru/wp-content/uploads/2022/09/izobrazhenie14-19-660x371.jpeg">
+            <h3 id="games">Приключенческие игры вышедшие в разные годы</h3>
+            <table style="border:1px solid blue; border-collapse:collapse; background-color:LightCyan; text-align:20px">
+                <tr style="border: 1px solid blue; background-color:Aqua">
+                    <td style="border: 1px solid blue">2000-2004</td>
+                    <td style="border: 1px solid blue">2005-2009</td>
+                    <td style="border: 1px solid blue">2010-2014</td>
+                    <td style="border: 1px solid blue">2015-2020</td>
+                </tr>
+                <tr style="border: 1px solid blue">
+                    <td style="border: 1px solid blue">Syberia</td>
+                    <td style="border: 1px solid blue"></td>
+                    <td style="border: 1px solid blue"></td>
+                    <td style="border: 1px solid blue"></td>
+                </tr>
+                <tr style="border: 1px solid blue">
+                    <td style="border: 1px solid blue">Max Payne</td>
+                    <td style="border: 1px solid blue"></td>
+                    <td style="border: 1px solid blue"></td>
+                    <td style="border: 1px solid blue"></td>
+                </tr>
+                <tr style="border: 1px solid blue">
+                    <td style="border: 1px solid blue">Syberia II</td>
+                    <td style="border: 1px solid blue"></td>
+                    <td style="border: 1px solid blue"></td>
+                    <td style="border: 1px solid blue"></td>
+                </tr>
+            </table>
+        </main>
+        <footer style="background-color:#5F9EA0">
+            <p>Адрес: город Красочный, ул.Пиксельная, 15.</p>
+            <p>Тел.:586-437</p>
+            <form style="background-color: lightblue; text-align:center; width:50%; border-radius:30px" class="form-inline">
+                <p><lable>ФИО<br><input type="text"></lable></p>
+                <p><lable>телефон<br><input type="tel"></lable></p>
+                <p><lable>почта<br><input type="email"></lable></p>
+                <input type="submit" value="Отправить" style="border-radius:10px">
+            </form>
+            <form style="background-color: lightblue; text-align:center; width:50%; border-radius:30px" class="form-inline">
+                <p><lable>дата<br><input type="date"></lable></p>
+                <p><lable><br><input type="checkbox">получать уведомления</lable></p>
+                <p><lable><br><input type="number"></lable></p>
+                <p><lable><br><input type="range"></lable></p>
+                <input type="submit" value="Отправить">
+            </form>
+        </footer>
+    </body>
+</html>
